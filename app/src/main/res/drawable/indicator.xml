@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+     <item android:state_expanded="true" android:drawable="@drawable/"/> //列表展开显示的图片
+      <item android:drawable="@drawable/"/> //列表关闭展示的图片
+     -->
+    <item android:state_expanded="true" android:drawable="@drawable/down_arrow"/>
+    <item android:drawable="@drawable/right_arrow"/>
+</selector>

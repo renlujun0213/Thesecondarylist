@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MelvActivity">
+
+    <!--
+    groupIndicator //更换指示器
+    divider //分割线的颜色
+    childDivider //子项的分割线的颜色
+    dividerHeight //分割线的高度（设置一个相当于设置了父子俩项的分割线高度）
+    -->
+    <ExpandableListView
+    android:groupIndicator="@drawable/indicator"
+    android:divider="@color/colorAccent"
+    android:dividerHeight="5dp"
+    android:childDivider="@color/colorPrimary"
+    android:id="@+id/elv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</RelativeLayout>
